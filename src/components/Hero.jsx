@@ -5,7 +5,7 @@ function Hero(){
         <div className="info">
             <h2>MASTER YOUR DAY</h2>
             <p>
-                Task management REST API built with FastAPI and SQLModel.
+                Zenith is a minimal task manager with secure authentication.
             </p>
         </div>
         <div className="CTA">
