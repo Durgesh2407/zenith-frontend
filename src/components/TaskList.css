@@ -1,0 +1,44 @@
+.tasklist {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+/* Container */
+.task-container {
+    padding: 24px;
+}
+
+/* Top right alignment */
+.add-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+
+/* Button styling */
+.add-btn button {
+    background-color: #00d4aa;
+    color: black;
+
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+}
+
+/* Hover */
+.add-btn button:hover {
+    background-color: #00b894;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 212, 170, 0.3);
+}
+
+/* Click */
+.add-btn button:active {
+    transform: scale(0.95);
+}

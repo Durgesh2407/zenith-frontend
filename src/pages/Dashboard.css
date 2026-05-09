@@ -1,0 +1,45 @@
+.dashboard {
+    background-color: #0d1117;
+    min-height: 100vh;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* CONTENT AREA BELOW TOPBAR */
+.dashboard-content {
+    padding: 24px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* OPTIONAL: CARD STYLE (for TaskList later) */
+.card {
+    background-color: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 10px;
+    padding: 20px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* SCROLLBAR (nice touch) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #484f58;
+}

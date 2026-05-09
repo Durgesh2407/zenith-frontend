@@ -1,0 +1,11 @@
+.login {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #6fb1c7,
+    #8a9fd1,
+    #a78bd6,
+    #d8b4c8
+  );
+}
